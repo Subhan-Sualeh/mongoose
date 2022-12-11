@@ -1,5 +1,5 @@
 {
-  "name": "ecomerce-server",
+  "name": "databse",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon app.js"
 
   },
-  "author": "",
+  "author": "Subhan",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",

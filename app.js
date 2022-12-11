@@ -3,7 +3,7 @@ const express = require("express");
 const productRoutes = require('./src/routes/product')
 const mongoose = require("mongoose")
 
-const BASE_URI = `mongodb+srv://SAMMAD:sammad320@cluster0.phgwpet.mongodb.net/?retryWrites=true&w=majority/ecommerce`;
+const BASE_URI = `mongodb+srv://Subhan:<password>@cluster0.ccu9qya.mongodb.net/test`;
 
 mongoose
   .connect(BASE_URI)
