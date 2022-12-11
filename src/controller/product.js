@@ -6,10 +6,10 @@ const addProduct = async (req, res) => {
     const {name, description, price, quantity} = req.body
     try {
         let product = new Product({
-           // name,
-            // description,
-            // price, 
-            // quantity
+           name,
+            description,
+            price, 
+            quantity ,
             ...req.body
         })
 
